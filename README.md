@@ -2,7 +2,7 @@
 Visualizing feature-based optical flow vectors in realtime camera feed
 
 # Compile
-`g++ optical-flow.cpp -o main \`pkg-config --cflags --libs opencv\` -std=c++11`
+g++ optical-flow.cpp -o main \`pkg-config --cflags --libs opencv\` -std=c++11
 
 # Usage
 ./main 
